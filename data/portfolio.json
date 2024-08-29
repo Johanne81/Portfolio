@@ -1,27 +1,27 @@
 [
     {
-        "image": "booki.png",
+        "image": "booki.webp",
         "title": "Booki",
         "text": "Conception d'un site en HTML et CSS depuis une maquette Figma. Utilisation de Flexbox, mise en place de la partie responsive, validation W3C",
         "link": "#", 
         "alt": "Image de couverture du site Booki"
     },
     {
-        "image": "EcoBlissBath.png",
+        "image": "EcoBlissBath.webp",
         "title": "EcoBlissBath",
         "text": "Rédaction et mise en place de scripts d'automatisation en Javascript via Cypress sur les fonctionnalités critiques du site. Rédaction d'un rapport de tests détaillé.",
         "link": "https://github.com/Johanne81/Eco_Bliss.git",
         "alt": "Image de couverture du site EcoBlissBath"
     },
     {
-        "image": "kasa.png",
+        "image": "kasa.webp",
         "title": "Kasa",
         "text": "Refonte d'une application web de location immobilière avec React. Mise en place du routeur, ajout de collapses, d'un carousel, appels API, animations css.",
         "link": "https://github.com/Johanne81/Kasa.git",
         "alt": "Image de couverture du site Kasa"
     },
     {
-        "image": "Sophie-Bluel.png",
+        "image": "Sophie-Bluel.webp",
         "title": "Sophie Bluel",
         "text": "Création d'une page dynamique avec Javascript pour le portfolio d'une architecte d'intérieur. Affichage des projets, gestion de la connexion utilisateur et création d'une modale dynamique d'ajout de projet.",
         "link": "https://github.com/Johanne81/sophie-bluel.git",
