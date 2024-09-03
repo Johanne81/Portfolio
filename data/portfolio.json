@@ -2,7 +2,7 @@
     {
         "image": "booki.webp",
         "title": "Booki",
-        "text": "Conception d'un site en HTML et CSS depuis une maquette Figma. Utilisation de Flexbox, mise en place de la partie responsive, validation W3C",
+        "text": "Conception d'un site en HTML et CSS depuis une maquette Figma. Utilisation de Flexbox, mise en place de la partie responsive, validation W3C.",
         "link": "#", 
         "alt": "Image de couverture du site Booki"
     },
