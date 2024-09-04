@@ -4,7 +4,7 @@
 #skills,
 #portfolio,
 #contact {
-    margin-top: 2rem;
+    /*margin-top: 2rem;*/
     padding-top: 4rem;
 }
 #about h2,
@@ -21,23 +21,21 @@
 .navbarScroll.navbarDark {
     background-color:#d98b72;
 }
-
-
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
     font-weight: 600;
 }
-
 
 /* hero background image */
 .bgimage {
     height: 100vh;
     max-height: 900px;
     /*background: #C1D3C2;*/
-    background: #B8C4B9;
+    background: #2F4F4F;
     background-size: cover;
     position: relative;
 }
+
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
@@ -55,18 +53,66 @@
 }
 
 /* about */
-
+#about p {
+    margin-top: 2rem;
+}
+.col-lg-4 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
 .imageAboutPage {
     width: 100%;
-    /*border-radius: 50%;*/
+    max-width: 350px; 
+    margin: 0 auto; 
+    border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
  }
 
+/* Styles pour les écrans moyens */
+@media screen and (max-width: 992px) {
+    .imageAboutPage {
+        max-width: 300px; 
+    }
+
+    #about .col-lg-4, #about .col-lg-8 {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+/* Styles pour les petits écrans */
+@media screen and (max-width: 768px) {
+    .imageAboutPage {
+        max-width: 250px; 
+    }
+
+    #about .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #about .col-lg-4, #about .col-lg-8 {
+        width: 100%;
+        max-width: none;
+    }
+
+    #about ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    #about ul li {
+        margin-bottom: 10px;
+    }
+}
 
 /* skills */
 .skillsText.card {
     height: 350px;
-    cursor: pointer;
+   /* cursor: pointer;*/
 }
 .skillsText img {
     width: 100%;
@@ -95,11 +141,35 @@
 #portfolio p {
     text-align: center;
 }
+.portfolioContent {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-center {
+    margin-top: auto; /* pousse le bouton vers le bas */
+    text-align: center;
+}
 .btn-success {
     color: #fff;
     font-weight: bold;
+    background-color: #2F4F4F;
+    border-color: #2F4F4F;
+}
+.btn-success:hover {
     background-color: #d98b72;
-    border-color: #d98b72;
+    border-color:#d98b72;
 }
 
 /* contact */
@@ -109,14 +179,22 @@
     align-items: center;
 }
 .contactColumn i {
-    color:#d98b72;
+    color:#2F4F4F;
 }
 
 /* footer */
 footer {
-    text-align: center;
-    margin: 1rem;
-    background-color:#B8C4B9;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#2F4F4F;
     color: #fff;
-    font-weight: 500;
+    font-weight: 500; 
+    padding: 1rem;
+}
+footer p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
