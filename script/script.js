@@ -99,8 +99,22 @@ function createPortfolioFromJSON() {
     });
 }
 
+function hideHeroTextOnMenuToggle() {
+  const navbarToggler = document.querySelector(".navbar-toggler");
+  const heroText = document.querySelector(".hero-text");
+
+  navbarToggler.addEventListener("click", function () {
+    if (heroText.style.display === "block") {
+      heroText.style.display = "none";
+    } else {
+      heroText.style.display = "block";
+    }
+  });
+}
+
 // Call the functions to execute the code
 handleNavbarScroll();
 handleNavbarCollapse();
 createSkillsFromJSON();
 createPortfolioFromJSON();
+hideHeroTextOnMenuToggle();

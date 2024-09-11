@@ -4,7 +4,6 @@
 #skills,
 #portfolio,
 #contact {
-    /*margin-top: 2rem;*/
     padding-top: 4rem;
 }
 #about h2,
@@ -19,19 +18,22 @@
 
 /* display background dark color on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color:#d98b72;
+    background-color: #096d98;
 }
 .navbar-dark .navbar-nav .nav-link {
     color: #fff;
     font-weight: 600;
 }
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #a6d3e2;
+    font-weight: 600;
+}
 
 /* hero background image */
 .bgimage {
-    height: 100vh;
+    height: 85vh;
     max-height: 900px;
-    /*background: #C1D3C2;*/
-    background: #2F4F4F;
+    background: url("images/image1.webp");
     background-size: cover;
     position: relative;
 }
@@ -69,50 +71,50 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
  }
 
-/* Styles pour les écrans moyens */
+/* CSS for medium-size screens */
 @media screen and (max-width: 992px) {
     .imageAboutPage {
         max-width: 300px; 
     }
-
     #about .col-lg-4, #about .col-lg-8 {
         width: 100%;
         max-width: none;
     }
+    .bgimage {
+        height: 50vh; 
+    }
 }
 
-/* Styles pour les petits écrans */
+/* CSS for small-size screens */
 @media screen and (max-width: 768px) {
     .imageAboutPage {
         max-width: 250px; 
     }
-
     #about .row {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
-
     #about .col-lg-4, #about .col-lg-8 {
         width: 100%;
         max-width: none;
     }
-
     #about ul {
         padding: 0;
         list-style: none;
     }
-
     #about ul li {
         margin-bottom: 10px;
+    }
+    .bgimage {
+        height: 50vh; 
     }
 }
 
 /* skills */
 .skillsText.card {
     height: 350px;
-   /* cursor: pointer;*/
 }
 .skillsText img {
     width: 100%;
@@ -151,25 +153,24 @@
     flex-direction: column;
     height: 100%;
 }
+.card-img-top {
+    width: 100%;
+}
 .card-body {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.text-center {
-    margin-top: auto; /* pousse le bouton vers le bas */
-    text-align: center;
-}
 .btn-success {
     color: #fff;
     font-weight: bold;
-    background-color: #2F4F4F;
-    border-color: #2F4F4F;
+    background-color: #096d98;
+    border-color: #096d98;
 }
 .btn-success:hover {
-    background-color: #d98b72;
-    border-color:#d98b72;
+    background-color: #096d98;
+    border-color:#096d98;
 }
 
 /* contact */
@@ -179,7 +180,7 @@
     align-items: center;
 }
 .contactColumn i {
-    color:#2F4F4F;
+    color:#096d98;
 }
 
 /* footer */
@@ -189,7 +190,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#2F4F4F;
+    background-color:#096d98;
     color: #fff;
     font-weight: 500; 
     padding: 1rem;

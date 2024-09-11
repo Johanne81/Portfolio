@@ -3,15 +3,15 @@
         "image": "booki.webp",
         "title": "Booki",
         "text": "Conception d'un site en HTML et CSS depuis une maquette Figma. Utilisation de Flexbox, mise en place de la partie responsive, validation W3C.",
-        "link": "#", 
+        "link": "https://github.com/Johanne81/Booki", 
         "alt": "Image de couverture du site Booki"
     },
     {
-        "image": "EcoBlissBath.webp",
-        "title": "EcoBlissBath",
-        "text": "Rédaction et mise en place de scripts d'automatisation en Javascript via Cypress sur les fonctionnalités critiques du site. Rédaction d'un rapport de tests détaillé.",
-        "link": "https://github.com/Johanne81/Eco_Bliss.git",
-        "alt": "Image de couverture du site EcoBlissBath"
+        "image": "Sophie-Bluel.webp",
+        "title": "Sophie Bluel",
+        "text": "Création d'une page dynamique avec Javascript pour le portfolio d'une architecte d'intérieur. Affichage des projets, gestion de la connexion utilisateur et création d'une modale dynamique d'ajout de projet.",
+        "link": "https://github.com/Johanne81/sophie-bluel.git",
+        "alt": "Image de couverture du site de Sophie Bluel"
     },
     {
         "image": "kasa.webp",
@@ -21,10 +21,24 @@
         "alt": "Image de couverture du site Kasa"
     },
     {
-        "image": "Sophie-Bluel.webp",
-        "title": "Sophie Bluel",
-        "text": "Création d'une page dynamique avec Javascript pour le portfolio d'une architecte d'intérieur. Affichage des projets, gestion de la connexion utilisateur et création d'une modale dynamique d'ajout de projet.",
-        "link": "https://github.com/Johanne81/sophie-bluel.git",
-        "alt": "Image de couverture du site de Sophie Bluel"
+        "image": "EcoBlissBath.webp",
+        "title": "EcoBlissBath",
+        "text": "Rédaction et mise en place de scripts d'automatisation en Javascript via Cypress sur les fonctionnalités critiques du site. Rédaction d'un rapport de tests détaillé.",
+        "link": "https://github.com/Johanne81/Eco_Bliss.git",
+        "alt": "Image de couverture du site EcoBlissBath"
+    },
+    {
+        "image": "Menu-Maker.webp",
+        "title": "Menu Maker by Qwenta",
+        "text": "Planification et gestion du développement d'un site web : veille technologique, rédaction des spécifications techniques à partir des besoins fonctionnels, création d'un tableau Kanban sur Notion, préparation et présentation orale d'un support expliquant mes choix.",
+        "link": "./files/menu-maker.pdf",
+        "alt": "Image de couverture du site Menu Maker by Qwenta"
+    },
+    {
+        "image": "tomsen.webp",
+        "title": "Tomsen",
+        "text": "Conception d'une stratégie de test : analyse des spécifications fonctionnelles et de la maquette, rédaction de la revue des exigences, élaboration de la stratégie de test et du cahier de recettes détaillé.",
+        "link": "./files/strategie-test.pdf",
+        "alt": "Image de couverture du site Tomsen"
     }
 ]
