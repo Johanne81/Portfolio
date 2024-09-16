@@ -31,14 +31,16 @@
         "image": "Menu-Maker.webp",
         "title": "Menu Maker by Qwenta",
         "text": "Planification et gestion du développement d'un site web : veille technologique, rédaction des spécifications techniques à partir des besoins fonctionnels, création d'un tableau Kanban sur Notion, préparation et présentation orale d'un support expliquant mes choix.",
-        "link": "./files/menu-maker.pdf",
-        "alt": "Image de couverture du site Menu Maker by Qwenta"
+        "link": "https://drive.google.com/drive/folders/1zrv6ZaqqS92ckDq0q8tjG5BptOG82y5_",
+        "alt": "Image de couverture du site Menu Maker by Qwenta",
+        "aria-label": "Accéder au dossier Gestion de projet"
     },
     {
         "image": "tomsen.webp",
         "title": "Tomsen",
         "text": "Conception d'une stratégie de test : analyse des spécifications fonctionnelles et de la maquette, rédaction de la revue des exigences, élaboration de la stratégie de test et du cahier de recettes détaillé.",
-        "link": "./files/strategie-test.pdf",
-        "alt": "Image de couverture du site Tomsen"
+        "link": "https://drive.google.com/drive/folders/1iV2wY8LZp-RTKMfK50H0-sYX1Z60Dx_i",
+        "alt": "Image de couverture du site Tomsen",
+        "aria-label": "Accéder au dossier Stratégie de test"
     }
 ]
