@@ -16,10 +16,7 @@
     padding-bottom: 4rem;
 }
 
-/* display background dark color on navbar scroll */
-/*.navbarScroll.navbarDark {
-    background-color: #2C3E50;
-}*/
+/* navbar */
 .navbar-dark .navbar-nav .nav-link {
     color: #ECF0F1;
     font-weight: 600;
@@ -36,7 +33,6 @@
 .bgimage {
     height: 85vh;
     max-height: 900px;
-   /* background: url("images/image1.webp");*/
     background: #2C3E50;
     background-size: cover;
     position: relative;
@@ -75,54 +71,10 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
  }
 
-/* CSS for medium-size screens */
-@media screen and (max-width: 992px) {
-    .imageAboutPage {
-        max-width: 300px; 
-    }
-    #about .col-lg-4, #about .col-lg-8 {
-        width: 100%;
-        max-width: none;
-    }
-    .bgimage {
-        height: 50vh; 
-    }
-}
-
-/* CSS for small-size screens */
-@media screen and (max-width: 768px) {
-    .imageAboutPage {
-        max-width: 250px; 
-    }
-    #about .row {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    #about .col-lg-4, #about .col-lg-8 {
-        width: 100%;
-        max-width: none;
-    }
-    #about ul {
-        padding: 0;
-        list-style: none;
-    }
-    #about ul li {
-        margin-bottom: 10px;
-    }
-    .bgimage {
-        height: 50vh; 
-    }
-    .hero_title {
-        font-size: 2.5rem;
-    }
-    .hero_desc {
-        font-size: 1.5rem;
-    }
-}
-
 /* skills */
+#skills p {
+    text-align: center;
+}
 .skillsText.card {
     height: 350px;
 }
@@ -130,9 +82,6 @@
     width: 100%;
     height: 150px;
     object-fit: contain;
-}
-#skills p {
-    text-align: center;
 }
 .skillsIcon {
     font-size: 36px;
@@ -208,4 +157,51 @@ footer {
 footer p {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+/* CSS for medium-size screens */
+@media screen and (max-width: 992px) {
+    .imageAboutPage {
+        max-width: 300px; 
+    }
+    #about .col-lg-4, #about .col-lg-8 {
+        width: 100%;
+        max-width: none;
+    }
+    .bgimage {
+        height: 50vh; 
+    }
+}
+
+/* CSS for small-size screens */
+@media screen and (max-width: 768px) {
+    .imageAboutPage {
+        max-width: 250px; 
+    }
+    #about .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #about .col-lg-4, #about .col-lg-8 {
+        width: 100%;
+        max-width: none;
+    }
+    #about ul {
+        padding: 0;
+        list-style: none;
+    }
+    #about ul li {
+        margin-bottom: 10px;
+    }
+    .bgimage {
+        height: 50vh; 
+    }
+    .hero_title {
+        font-size: 2.5rem;
+    }
+    .hero_desc {
+        font-size: 1.5rem;
+    }
 }

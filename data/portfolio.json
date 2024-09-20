@@ -23,14 +23,14 @@
     {
         "image": "EcoBlissBath.webp",
         "title": "EcoBlissBath",
-        "text": "Rédaction et mise en place de scripts d'automatisation en Javascript via Cypress sur les fonctionnalités critiques du site. Rédaction d'un rapport de tests détaillé.",
+        "text": "Rédaction et mise en place de scripts d'automatisation en JavaScript via Cypress sur les fonctionnalités critiques du site. Rédaction d'un rapport de tests détaillé.",
         "link": "https://github.com/Johanne81/Eco_Bliss.git",
         "alt": "Image de couverture du site EcoBlissBath"
     },
     {
         "image": "Menu-Maker.webp",
         "title": "Menu Maker by Qwenta",
-        "text": "Planification et gestion du développement d'un site web : veille technologique, rédaction des spécifications techniques à partir des besoins fonctionnels, création d'un tableau Kanban sur Notion, préparation et présentation orale d'un support expliquant mes choix.",
+        "text": "Planification et gestion du développement d'un site web : veille technologique, rédaction des spécifications techniques à partir des besoins fonctionnels, tableau Kanban sur Notion, présentation orale expliquant mes choix.",
         "link": "https://drive.google.com/drive/folders/1zrv6ZaqqS92ckDq0q8tjG5BptOG82y5_",
         "alt": "Image de couverture du site Menu Maker by Qwenta",
         "aria-label": "Accéder au dossier Gestion de projet"
